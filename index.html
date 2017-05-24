@@ -5,17 +5,29 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>再见再不见</title>
 	      <style type="text/css">
- body { font-size:12px;font-family:tahoma;}
- div {
-  padding:25px;
-  border:1px solid #FFF;
-  background-color:#FFF;
-  width:760px;
- }
+ div#wrap {   
+    display:table;   
+    border:1px solid #FF0099;   
+ background-color:#FFCCFF;   
+ width:760px;   
+  height:400px;   
+ _position:relative;   
+   overflow:hidden;   
+}   
+div#subwrap {   
+    vertical-align:middle;   
+    display:table-cell;   
+   _position:absolute;   
+   _top:50%;   
+}   
+div#content {   
+   _position:relative;   
+   _top:-50%;   
+}   
   </style>
     </head>
     <body>
-	    <div>
+	    <div id="wrap subwrap content">
 	<p>曾经我天真的以为你多么了解我</p>
 	<p>曾经我天真的以为至少分开的时候可以落落大方</p>
 	<p>你质疑的信息和朋友圈</p>
